@@ -12,7 +12,7 @@
 /* Define colors */
 /* Import fonts */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
-@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC:700);
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
 * {
@@ -42,6 +42,9 @@ p {
 html,
 body {
   height: 100%; }
+
+.spacer {
+  height: 125px; }
 
 .alignleft {
   float: left; }
@@ -214,11 +217,14 @@ input {
   background-size: cover;
   color: #000; }
   #h h1 {
-    font-family: "Indie Flower", cursive; }
+    font-family: "Amatic SC", cursive;
+    font-size: 53px; }
   #h .logo {
     margin-top: 30px;
     margin-left: 40px;
     text-align: center; }
+    #h .logo img {
+      padding-bottom: 75px; }
     #h .logo .h2 {
       font-weight: 900;
       color: white;
@@ -233,6 +239,12 @@ input {
   padding-top: 50px;
   padding-bottom: 50px;
   background: #f5f5f5; }
+
+/* WHITE SECTION */
+#w {
+  padding-top: 50px;
+  background-color: #333;
+  color: #cccccc; }
 
 .portfolio {
   padding: 0 !important;
@@ -266,8 +278,7 @@ input {
 .tpl6 .bg {
   height: 100%;
   width: 100%;
-  background-color: #00b3fe;
-  background-color: rgba(0, 179, 254, 0.9);
+  background-color: rgba(163, 61, 0, 0.5);
   text-align: center; }
 
 /* CLIENTS */
@@ -288,7 +299,7 @@ input {
   background-position: center center;
   min-height: 450px;
   width: 100%;
-  color: white;
+  color: #000;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
@@ -307,7 +318,7 @@ input {
 #f {
   padding-top: 25px;
   padding-bottom: 25px;
-  background-color: #22A7F0; }
+  background-color: #333; }
 
 #f i {
   margin-right: 30px;
