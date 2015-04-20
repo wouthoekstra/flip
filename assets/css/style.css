@@ -233,6 +233,8 @@ input {
     margin-top: 10px; }
   #h i {
     font-size: 50px; }
+  #h .visible-xs-block img {
+    margin-top: 100px; }
 
 /* GREY SECTION */
 #g {
